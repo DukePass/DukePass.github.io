@@ -1,0 +1,24 @@
+<section id="breeds">
+    <h2>Dog Breeds</h2>
+    <p>Explore different dog breeds and learn about their characteristics.</p>
+
+    <div class="breed-card">
+        <img src="golden_retriever.jpg" alt="Golden Retriever">
+        <h3>Golden Retriever</h3>
+        <p>The Golden Retriever is known for its friendly and gentle temperament. They are highly intelligent and make excellent family pets.</p>
+    </div>
+
+    <div class="breed-card">
+        <img src="german_shepherd.jpg" alt="German Shepherd">
+        <h3>German Shepherd</h3>
+        <p>German Shepherds are intelligent, versatile, and loyal dogs. They excel in various roles including police work and search-and-rescue.</p>
+    </div>
+
+    <div class="breed-card">
+        <img src="poodle.jpg" alt="Poodle">
+        <h3>Poodle</h3>
+        <p>Poodles come in different sizes (standard, miniature, and toy) and are known for their intelligence, elegance, and hypoallergenic coat.</p>
+    </div>
+
+    <!-- Add more breed cards as needed -->
+</section>

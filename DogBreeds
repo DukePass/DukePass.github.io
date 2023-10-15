@@ -1,24 +1,45 @@
-<section id="breeds">
-    <h2>Dog Breeds</h2>
-    <p>Explore different dog breeds and learn about their characteristics.</p>
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="breed-card">
-        <img src="golden_retriever.jpg" alt="Golden Retriever">
-        <h3>Golden Retriever</h3>
-        <p>The Golden Retriever is known for its friendly and gentle temperament. They are highly intelligent and make excellent family pets.</p>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breeds - Dog Lover's Hub</title>
+    <link rel="stylesheet" href="styles.css"> <!-- If you have a separate CSS file -->
+</head>
 
-    <div class="breed-card">
-        <img src="german_shepherd.jpg" alt="German Shepherd">
-        <h3>German Shepherd</h3>
-        <p>German Shepherds are intelligent, versatile, and loyal dogs. They excel in various roles including police work and search-and-rescue.</p>
-    </div>
+<body>
+    <header>
+        <h1>Dog Breeds</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Link back to the home page -->
+                <li><a href="#breed1">Breed 1</a></li>
+                <li><a href="#breed2">Breed 2</a></li>
+                <!-- Add links to specific breeds on this page -->
+            </ul>
+        </nav>
+    </header>
 
-    <div class="breed-card">
-        <img src="poodle.jpg" alt="Poodle">
-        <h3>Poodle</h3>
-        <p>Poodles come in different sizes (standard, miniature, and toy) and are known for their intelligence, elegance, and hypoallergenic coat.</p>
-    </div>
+    <section id="breed1">
+        <h2>Breed 1</h2>
+        <p>Information about Breed 1.</p>
+        <!-- Add details and images for Breed 1 -->
+    </section>
 
-    <!-- Add more breed cards as needed -->
-</section>
+    <section id="breed2">
+        <h2>Breed 2</h2>
+        <p>Information about Breed 2.</p>
+        <!-- Add details and images for Breed 2 -->
+    </section>
+
+    <!-- Add more sections for other breeds as needed -->
+
+    <footer>
+        <p>&copy; 2023 Dog Lover's Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- If you have a separate JavaScript file -->
+</body>
+
+</html>

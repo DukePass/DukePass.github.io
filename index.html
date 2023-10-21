@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dog Lover's Hub</title>
-    <link rel="stylesheet" href="styles.css"> <!-- If you have a separate CSS file -->
+    <title>Dog Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <h1>Welcome to Dog Lover's Hub</h1>
-        <nav>
-            <ul>
-                <li><a href="#breeds">Breeds</a></li>
-                <li><a href="#care">Care Tips</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#adopt">Adopt</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to the Dog Website</h1>
     </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Dogs</a></li>
+            <li><a href="#breeds">Dog Breeds</a></li>
+            <li><a href="#training">Dog Training</a></li>
+            <li><a href="#food">Recommended Food Brands</a></li>
+            <li><a href="#gallery">Dog Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Dogs</h2>
+        <p>Write a brief introduction about dogs here.</p>
+    </section>
 
     <section id="breeds">
         <h2>Dog Breeds</h2>
-        <p>Explore different dog breeds and learn about their characteristics.</p>
-        <!-- Add images and information about different dog breeds -->
+        <p>List different dog breeds with descriptions.</p>
     </section>
 
-    <section id="care">
-        <h2>Care Tips</h2>
-        <p>Learn how to properly care for your furry friend.</p>
-        <!-- Include care tips and advice -->
+    <section id="training">
+        <h2>Dog Training</h2>
+        <p>Provide information and tips on training dogs.</p>
+    </section>
+
+    <section id="food">
+        <h2>Recommended Food Brands</h2>
+        <p>Share trusted dog food brands and their benefits.</p>
     </section>
 
     <section id="gallery">
-        <h2>Gallery</h2>
-        <p>View adorable pictures of dogs from our community.</p>
-        <!-- Add a gallery of dog images -->
-    </section>
-
-    <section id="adopt">
-        <h2>Adopt a Dog</h2>
-        <p>Find your perfect companion through our adoption program.</p>
-        <!-- Provide information about the adoption process and available dogs -->
+        <h2>Dog Gallery</h2>
+        <img src="dog1.jpg" alt="Dog 1">
+        <img src="dog2.jpg" alt="Dog 2">
+        <!-- Add more images as needed -->
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Get in touch with us for any inquiries or feedback.</p>
-        <!-- Add contact information or a contact form -->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Submit">
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 Dog Lover's Hub. All rights reserved.</p>
+        <p>&copy; 2023 Dog Website</p>
     </footer>
 
-    <script src="script.js"></script> <!-- If you have a separate JavaScript file -->
+    <script src="script.js"></script>
 </body>
-
 </html>
-

@@ -1,13 +1,85 @@
-<section id="shelter">
-    <h2>Top Animal Shelters in Metro Atlanta</h2>
-    <ol>
-        <li><strong>Atlanta Humane Society</strong> - Address: 981 Howell Mill Rd NW, Atlanta, GA 30318</li>
-        <li><strong>Furkids Animal Rescue and Shelters</strong> - Address: 5235 Union Hill Rd, Cumming, GA 30040</li>
-        <li><strong>LifeLine Animal Project</strong> - Address: 2533 Sullivan Rd, College Park, GA 30337</li>
-        <li><strong>Paws Atlanta</strong> - Address: 5287 Covington Hwy, Decatur, GA 30035</li>
-        <li><strong>Best Friends Animal Society Atlanta</strong> - Address: 4874 South Atlanta Rd SE, Atlanta, GA 30339</li>
-        <li><strong>Fur-Ever Friends of Georgia</strong> - Address: 310 Gilmer Ferry Rd, Ball Ground, GA 30107</li>
-        <li><strong>Angels Among Us Pet Rescue</strong> - Address: P.O. Box 821, Alpharetta, GA 30009</li>
-        <!-- Add more shelters as needed -->
-    </ol>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Dog Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="breeds.html">Dog Breeds</a></li>
+            <li><a href="food.html">Recommended Food Brands</a></li>
+            <li><a href="gallery.html">Dog Gallery</a></li>
+            <li><a href="shelter.html">Local Animal Shelter</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Dogs</h2>
+        <p>Write a brief introduction about dogs here.</p>
+    </section>
+
+    <section id="breeds">
+        <h2>Dog Breeds</h2>
+        <p>List different dog breeds with descriptions.</p>
+    </section>
+
+    <section id="food">
+        <h2>Top 10 Dog Food Brands</h2>
+        <ol>
+            <li>
+                <strong>PetSmart's Simply Nourish:</strong> Known for its natural and balanced recipes, Simply Nourish offers a range of options tailored to meet your dog's specific needs.
+            </li>
+            <li>
+                <strong>Blue Buffalo:</strong> This brand emphasizes real meat as the first ingredient and avoids artificial additives, making it a popular choice among dog owners.
+            </li>
+            <!-- Add more food brands as needed -->
+        </ol>
+    </section>
+
+    <section id="gallery">
+        <h2>Dog Gallery</h2>
+        <img src="images/dog1.jpg" alt="Dog 1">
+        <img src="images/dog2.jpg" alt="Dog 2">
+        <!-- Add more images as needed -->
+    </section>
+
+    <section id="shelters">
+        <h2>Top Animal Shelters in Metro Atlanta</h2>
+        <ol>
+            <li>
+                <strong>Atlanta Humane Society</strong> - Address: 981 Howell Mill Rd NW, Atlanta, GA 30318
+            </li>
+            <li>
+                <strong>Furkids Animal Rescue and Shelters</strong> - Address: 5235 Union Hill Rd, Cumming, GA 30040
+            </li>
+            <!-- Add more shelters as needed -->
+        </ol>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Dog Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

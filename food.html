@@ -1,88 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recommended Food Brands</title>
-    <link rel="stylesheet" href="styles.css"> body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
-}
-section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+<title>The Dog Hub</title> 
+
+<meta charset="utf-8"> 
+
+<style> 
+
+body { 
+  background-color: #FFFFFF; /* White background */
+  color: #808080; /* Gray text */
+  font-family: Arial, sans-serif;
 }
 
-section h2 {
-    color: #333333;
-    font-size: 24px;
-    margin-bottom: 10px;
+header { 
+  background-color: #DDDDDD; /* Gray banner */
+  color: #000000; /* Black text */
+  text-align: center;
+  padding: 10px;
 }
 
-section ol {
-    list-style-type: decimal;
-    padding-left: 20px;
+nav {
+  background-color: #DDDDDD; /* Gray banner */
+  color: #000000; /* Black text */
+  padding: 10px;
 }
 
-section li {
-    font-size: 18px;
-    margin-bottom: 10px;
+nav a {
+  color: #000000; /* Black hyperlinks */
+  text-decoration: none;
+  margin-right: 10px;
 }
 
-footer {
-    background-color: #333333;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-</head>
-<body>
-   <section id="food">
-    <h2>Top 10 Dog Food Brands</h2>
-    <ol>
-        <li>
-            <strong>PetSmart's Simply Nourish:</strong> Known for its natural and balanced recipes, Simply Nourish offers a range of options tailored to meet your dog's specific needs.
-        </li>
-        <li>
-            <strong>Blue Buffalo:</strong> This brand emphasizes real meat as the first ingredient and avoids artificial additives, making it a popular choice among dog owners.
-        </li>
-        <li>
-            <strong>Wellness:</strong> Wellness offers a variety of recipes, including grain-free options, focusing on natural, high-quality ingredients for optimal canine health.
-        </li>
-        <li>
-            <strong>Nutro:</strong> Nutro provides nutrition tailored to dogs' individual needs, featuring non-GMO ingredients and no artificial preservatives.
-        </li>
-        <li>
-            <strong>Canidae:</strong> Canidae offers a variety of grain-free and limited ingredient options, catering to dogs with sensitivities or allergies.
-        </li>
-        <li>
-            <strong>Merrick:</strong> Known for its high-quality, whole food recipes, Merrick provides options that prioritize real meat and fresh produce.
-        </li>
-        <li>
-            <strong>Nulo:</strong> Nulo offers grain-free recipes with a high meat content, promoting lean muscle mass and overall canine health.
-        </li>
-        <li>
-            <strong>Purina Pro Plan:</strong> Purina Pro Plan provides specialized formulas for various life stages and specific health needs.
-        </li>
-        <li>
-            <strong>Pure Balance:</strong> Pure Balance offers a variety of recipes with high-quality ingredients for balanced canine nutrition.
-        </li>
-        <li>
-            <strong>Rachael Ray Nutrish:</strong> Rachael Ray Nutrish features recipes inspired by the culinary expertise of Rachael Ray, providing wholesome meals for dogs.
-        </li>
-    </ol>
-</section>
 
-    <footer>
-        <p>&copy; 2023 Recommended Food Brands</p>
-    </footer>
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
 
-    <script src="script.js"></script>
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button {
+  background-color: #0066CC;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+</style> 
+
+</head> 
+
+<body> 
+
+<header><h1>The Dog Hub</h1></header> 
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="breeds.html">Breeds</a>
+  <a href="food.html">Recommended Food</a>
+  <a href="shelter.html">Local Shelters</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+
+<div class="contact-form">
+  <h2>Contact Us</h2>
+  <form action="submit_contact_form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<footer>&copy; 2023 The Dog Hub</footer>
+
 </body>
-</html>
 
+</html>

@@ -12,7 +12,7 @@
 
 body { 
   background-color: #FFFFFF; /* White background */
-  color: #808080; /* Gray text */
+  color: #000000; /* Black text */
   font-family: Arial, sans-serif;
 }
 
@@ -35,34 +35,10 @@ nav a {
   margin-right: 10px;
 }
 
-.contact-form {
-  max-width: 600px;
+.container {
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form label,
-.contact-form input,
-.contact-form textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.contact-form textarea {
-  height: 100px;
-}
-
-.contact-form button {
-  background-color: #0066CC;
-  color: #FFFFFF;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 </style> 
@@ -75,26 +51,26 @@ nav a {
 
 <nav>
   <a href="index.html">Home</a>
-  <a href="breeds.html">Breeds</a>
-  <a href="food.html">Recommended Food</a>
-  <a href="shelter.html">Local Shelters</a>
+  <a href="food.html">Top Dog Food Brands</a>
+  <a href="breeds.html">Dog Breeds</a>
+  <a href="shelter.html">Shelters</a>
   <a href="contact.html">Contact Us</a>
 </nav>
 
-<div class="contact-form">
-  <h2>Contact Us</h2>
-  <form action="submit_contact_form.php" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required></textarea>
-    
-    <button type="submit">Submit</button>
-  </form>
+<div class="container">
+  <h2>Top 10 Dog Food Brands</h2>
+  <ul>
+    <li>PetSmart's Simply Nourish: Known for its natural and balanced recipes, Simply Nourish offers a range of options tailored to meet your dog's specific needs.</li>
+    <li>Blue Buffalo: This brand emphasizes real meat as the first ingredient and avoids artificial additives, making it a popular choice among dog owners.</li>
+    <li>Wellness: Wellness offers a variety of recipes, including grain-free options, focusing on natural, high-quality ingredients for optimal canine health.</li>
+    <li>Nutro: Nutro provides nutrition tailored to dogs' individual needs, featuring non-GMO ingredients and no artificial preservatives.</li>
+    <li>Canidae: Canidae offers a variety of grain-free and limited ingredient options, catering to dogs with sensitivities or allergies.</li>
+    <li>Merrick: Known for its high-quality, whole food recipes, Merrick provides options that prioritize real meat and fresh produce.</li>
+    <li>Nulo: Nulo offers grain-free recipes with a high meat content, promoting lean muscle mass and overall canine health.</li>
+    <li>Purina Pro Plan: Purina Pro Plan provides specialized formulas for various life stages and specific health needs.</li>
+    <li>Pure Balance: Pure Balance offers a variety of recipes with high-quality ingredients for balanced canine nutrition.</li>
+    <li>Rachael Ray Nutrish: Rachael Ray Nutrish features recipes inspired by the culinary expertise of Rachael Ray, providing wholesome meals for dogs.</li>
+  </ul>
 </div>
 
 <footer>&copy; 2023 The Dog Hub</footer>
